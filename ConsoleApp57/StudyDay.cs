@@ -88,6 +88,12 @@ namespace ConsoleApp57
         }
         #endregion
 
+        public void ChangeTime(int hourInDay, Time t)
+        {
+            if (hourInDay >= 0 && hourInDay <= current && hours[hourInDay]!=null)
+            hours[hourInDay] = new Time(t);
+        }
+
 
 
     }
