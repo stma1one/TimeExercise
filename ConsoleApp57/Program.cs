@@ -9,6 +9,8 @@ namespace ConsoleApp57
             Time t = new Time(23, 42, 15);
             t.AddSeconds(4450);
             Console.WriteLine(t);
+
+            StudyDay s = new StudyDay();
         }
     }
 }
